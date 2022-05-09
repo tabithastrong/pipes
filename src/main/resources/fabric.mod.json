@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "pipes_mod",
+  "version": "${version}",
+
+  "name": "Pipes Mod",
+  "description": "What do we want? Pipes! When do we want 'em? Now!",
+  "authors": [
+    "Tabitha Strong"
+  ],
+  "contact": {
+    "homepage": "https://tabithastrong.com/minecraft/",
+    "sources": "https://github.com/tabithastrong/pipes_mod"
+  },
+
+  "license": "MIT 3.0",
+  "icon": "assets/pipes-mod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.tabithastrong.pipes.PipesMod"
+    ],
+    "client": [
+      "com.tabithastrong.pipes.PipesModClient"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  }
+}
